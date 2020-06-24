@@ -44,7 +44,8 @@
     "init-tslint": "rc-tools run init-tslint",
     "coverage": "rc-tools run test --coverage",
     "pre-commit": "rc-tools run pre-commit",
-    "lint-staged": "lint-staged"
+    "lint-staged": "lint-staged",
+    "prepublish": "npm run compile"
   },
   "devDependencies": {
     "enzyme": "^3.8.0",

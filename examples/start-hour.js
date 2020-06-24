@@ -1,12 +1,10 @@
-import '../assets/index.less';
+import 'rc-time-picker/assets/index.less';
+
 import React from 'react';
+import ReactDom from 'react-dom';
 import moment from 'moment';
-import TimePicker from '..';
+import TimePicker from 'rc-time-picker';
 
-const App = () => (
-  <>
-    <TimePicker defaultValue={moment()} showSecond={false} startHour={10} />
-  </>
-);
-
-export default App;
+ReactDom.render(
+  <TimePicker defaultValue={moment()} showSecond={false} startHour={20} />
+, document.getElementById('__react-content'));

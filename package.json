@@ -1,5 +1,5 @@
 {
-  "name": "@optimind-llc/rc-time-picker",
+  "name": "@optimind-llc/time-picker",
   "version": "3.7.0-0",
   "description": "React TimePicker",
   "keywords": [
@@ -23,7 +23,7 @@
   "author": "wuzhao.mail@gmail.com",
   "repository": {
     "type": "git",
-    "url": "git://github.com/optimind-llc/rc-time-picker.git"
+    "url": "git://github.com/optimind-llc/time-picker.git"
   },
   "bugs": {
     "url": "http://github.com/react-component/time-picker/issues"
@@ -37,12 +37,10 @@
     "compile": "rc-tools run compile --babel-runtime",
     "gh-pages": "rc-tools run gh-pages",
     "start": "rc-tools run server",
-    "pub": "rc-tools run pub --babel-runtime",
     "lint": "rc-tools run lint",
     "lint:fix": "rc-tools run lint --fix",
     "prettier": "rc-tools run prettier",
     "test": "rc-tools run test",
-    "prepublish": "rc-tools run guard",
     "init-tslint": "rc-tools run init-tslint",
     "coverage": "rc-tools run test --coverage",
     "pre-commit": "rc-tools run pre-commit",
